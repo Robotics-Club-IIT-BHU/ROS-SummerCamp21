@@ -20,18 +20,33 @@ And And And
 
 https://user-images.githubusercontent.com/56990337/122926836-e3bf2c80-d385-11eb-9b17-c65d81f06f87.mp4
 
-Just Look at all the robots and also more [ROBOTs](https://robots.ros.org/) can be found which are developed by **ROS** from scratch. and are very modular for you to be able to use there code directly in your project.
+Just Look at all the robots and also more [ROBOTs](https://robots.ros.org/) can be found which are developed by **ROS** from scratch.
+
+<h4><p align="center">And are very modular for you to be able to use there code directly in your project.</p></h4>
 
 
 ## Why ROS?
 
-ROS makes it easy to get a robot running and do the required task. These are the lines from the [original paper](http://robotics.stanford.edu/~ang/papers/icraoss09-ROS.pdf) :
+ROS makes it easy to get a robot running and do the required task.
+> These are the lines from the [original paper](http://robotics.stanford.edu/~ang/papers/icraoss09-ROS.pdf) :
 
 >  Writing software for robots is difficult, particularly as the scale and scope of robotics continues to grow. Different types of robots can have wildly varying hardware, making code reuse nontrivial. On top of this, the sheer size of the required code can be daunting, as it must contain a deep stack starting from driver-level software and continuing up through perception, abstract reasoning, and beyond. Since the required breadth of expertise is well beyond the capabilities of any single researcher, robotics software architectures must also support large-scale software integration efforts.  
->
+
 > To meet these challenges, many robotics researchers, including ourselves, have previously created a wide variety of frameworks to manage complexity and facilitate rapid prototyping of software for experiments, resulting in the many robotic software systems currently used in academia and industry. Each of these frameworks was designed for a particular purpose, perhaps in response to perceived weaknesses of other available frameworks, or to place emphasis on aspects which were seen as most important in the design process.
->
+
 > ROS is also the product of tradeoffs and prioritizations made during its design cycle. We believe its emphasis on large-scale integrative robotics research will be useful in a wide variety of situations as robotic systems grow ever more complex
+
+Because time you have to use a hand manipulator to grasp your smiley ball, or make a Bayesian Map using depth Camera and IMU you need not heatup the battery of your calculator nor ...
+<img src="https://user-images.githubusercontent.com/56990337/122928448-81ffc200-d387-11eb-8cd0-1c96bd0737b3.png" width="300"> <img src="https://user-images.githubusercontent.com/56990337/122928478-8a57fd00-d387-11eb-84bb-2c3b72f8d91c.png" width="300"/>
+
+Just simply search for the ROS package and it will do the trick for you.
+```bash
+$ sudo apt-get install ros-openslam-gmapping
+...
+....
+......[process-started] Node launched
+```
+[HAve to add a image]
 
 ## What should I do
 Lets now move to installation.<br/>
