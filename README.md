@@ -47,7 +47,8 @@ $ sudo apt-get install ros-openslam-gmapping
 ....
 ......[process-started] Node launched
 ```
-[HAve to add a image]
+![slam](https://user-images.githubusercontent.com/56990337/122931433-84afe680-d38a-11eb-82b4-67c0014d80a3.gif)
+
 
 ## What should I do
 Lets now move to installation.<br/>
