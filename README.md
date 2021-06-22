@@ -1,4 +1,4 @@
-<center><img src="https://answers.ros.org/upfiles/14554624266871161.png" width="30" height="30"> <b>ROS</b><h1>ROS-SummerCamp</h1></center>
+<p align="center"><img src="https://answers.ros.org/upfiles/14554624266871161.png" width="30" height="30"> <b>R</b>obotic<b>O</b>perating<b>S</b>ystem <h1>ROS-SummerCamp</h1> </p>
 
 Welcome to the ROS specilization offered by Robotics Club, IIT(BHU) Varanasi. We Aim to deliever a Beginner Level of Understanding to ROS to get you started with projects with it.
 
