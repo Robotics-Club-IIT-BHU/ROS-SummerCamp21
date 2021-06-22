@@ -36,13 +36,14 @@ ROS makes it easy to get a robot running and do the required task.
 
 > ROS is also the product of tradeoffs and prioritizations made during its design cycle. We believe its emphasis on large-scale integrative robotics research will be useful in a wide variety of situations as robotic systems grow ever more complex
 
-Because time you have to use a hand manipulator to grasp your smiley ball, or make a Bayesian Map using depth Camera and IMU you need not heatup the battery of your calculator nor ...
+Because next time you have to use a hand manipulator to grasp your smiley ball, or make a Bayesian Map using depth Camera and IMU you need not heatup the battery of your calculator nor ...
 
 <img src="https://user-images.githubusercontent.com/56990337/122928448-81ffc200-d387-11eb-8cd0-1c96bd0737b3.png" width="300"> <img src="https://user-images.githubusercontent.com/56990337/122928478-8a57fd00-d387-11eb-84bb-2c3b72f8d91c.png" width="300"/>
 
 Just simply search for the ROS package and it will do the trick for you.
 ```bash
 $ sudo apt-get install ros-openslam-gmapping
+$ roslaunch gmapping gmapping.launch
 ...
 ....
 ......[process-started] Node launched
