@@ -1,6 +1,6 @@
 # Task 1 for ROS specilization
 
-Lets Start out with Linux commands go through the compilation we have made here [LinuxCommands.md](/LinuxCommands.md)
+Lets Start out with Linux commands go through the compilation we have made here [LinuxCommands.md](LinuxCommands.md)
 
 Thats should be all for your Linux Tutorial Now back to topic : )
 
