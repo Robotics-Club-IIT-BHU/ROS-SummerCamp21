@@ -12,7 +12,7 @@ For Users with **Ubuntu 20.04**
 
 Next :
 2. Setup a catkin Environment from [ROS WiKi Managing Environment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
-3. Follow Along our guide to shift to catkin build from [here](#catkinbuild)
+3. Follow Along our guide to shift to catkin build from [here](#catkin-build)
 
 ## Catkin Build
 If you followed along till here you will mostly have a file structure as follows
