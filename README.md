@@ -13,12 +13,19 @@ What we plan to Teach over the course of 2.5-3 weeks.
 **NOTE**: We would always prefer you to look up [**ros wiki**](http://wiki.ros.org/Documentation) and [**ros answers**](https://answers.ros.org/questions/) as they containing literally everything  from where most of us have learnt ROS.
 
 ## What is ROS
+<img src="assests/you_asked.jpeg" width="150" height="150" align="right" />
+ROS stands for Robot Operating System. Even if it says so, ROS is not a real operating system since it goes on top of operating systems like Linux. ROS is a framework on top of the O.S. that allows it to abstract the hardware from the software. This means you can think in terms of software for all the hardware of the robot. And that’s good news for you because this implies that you can actually create programs for robots without having to deal with the hardware. Cool right!
+<br/><br/><br/><br/><br/><br/>
+And And And
 
-​	ROS stands for Robot Operating System. Even if it says so, ROS is not a real operating system since it goes on top of operating systems like Linux. ROS is a framework on top of the O.S. that allows it to abstract the hardware from the software. This means you can think in terms of software for all the hardware of the robot. And that’s good news for you because this implies that you can actually create programs for robots without having to deal with the hardware. Cool right!
+![Video](https://user-images.githubusercontent.com/56990337/122926836-e3bf2c80-d385-11eb-9b17-c65d81f06f87.mp4)
+
+Just Look at all the robots and also more [ROBOTs](https://robots.ros.org/) can be found which are developed by **ROS** from scratch. and are very modular for you to be able to use there code directly in your project.
+
 
 ## Why ROS?
 
-ROS makes it easy to get a robot running and do the required task. These are the lines from the [original paper](http://robotics.stanford.edu/~ang/papers/icraoss09-ROS.pdf) : 
+ROS makes it easy to get a robot running and do the required task. These are the lines from the [original paper](http://robotics.stanford.edu/~ang/papers/icraoss09-ROS.pdf) :
 
 >  Writing software for robots is difficult, particularly as the scale and scope of robotics continues to grow. Different types of robots can have wildly varying hardware, making code reuse nontrivial. On top of this, the sheer size of the required code can be daunting, as it must contain a deep stack starting from driver-level software and continuing up through perception, abstract reasoning, and beyond. Since the required breadth of expertise is well beyond the capabilities of any single researcher, robotics software architectures must also support large-scale software integration efforts.  
 >
@@ -36,6 +43,5 @@ Before that there are a few requirements.
     - Ubuntu 20.04 (not well supported for now).
     - Mac OS X (highly unstable but can be your last resort).
     - For everyone else [VirtualBox](https://www.virtualbox.org/)
-    -
 
 For Installation Jump to [Installation.md](/Installation.md) which has a Detailed description on the Installation process.
