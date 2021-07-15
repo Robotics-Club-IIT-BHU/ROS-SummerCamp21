@@ -1,8 +1,9 @@
 # Task2
 
-Kudos :clap: to all of you for finishing Task1.
+Kudos :clap: to all of you for finishing Week1.
 
-Now...</br>
+
+Now After your exams...</br>
 <p align = "center">
 <img height = "300" width = "500" src="../assests/serious.gif"/></br>
 </p>
