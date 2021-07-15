@@ -1,6 +1,6 @@
 # Subpart-1 
 
-<h1 align="center">RViz</h1>
+<h2 align="center">RViz</h2>
 
 **Visualisation** is the key which make robotics fun, Generally we want to see what the robot is seeing, how it joints, links are behaving while interacting with environment etc.... so for these purposes ROS have a package RViz(known as ROS Visualiser) to allow us to see and visualise all these things.
 
@@ -25,14 +25,14 @@ Don't Worry if you don't understand few terms, you learn about most of them as t
 
 Before moving further with RViz, let's first learn about **tf or transforms(transformations)**.
 
-<h1 align="center">tf</h1>
+<h2 align="center">tf</h2>
 
 In pybullet camp, you found an example of transformation i.e., **euler2quaternion** or **quaternion2euler**, but robotics is not just limited to it. To learn more about transformations in real world with robotics see [This video from Maryland University](https://www.youtube.com/watch?v=olmAyg_mrdI&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=2&t=837s)(Although this video is on quadrotors but nearly same math applies in all robotics field.)
 
 In ROS, there is a seprate package which handles transformations, but one might be thinking...
 
 <p align="center">
-<img width = 600 height=400 src = "../../assests/ask.jpeg">
+<img width = 500 height=300 src = "../../assests/ask.jpeg">
 </p>
 
 I will left the answer on [Kostas Danillidis-Proff at University of Pennsylvania](https://www.coursera.org/lecture/robotics-perception/rotations-and-translations-eTSMz)
@@ -57,7 +57,7 @@ P.S. -> We are not going indepth of the underlying code(As our aim is to give yo
  - 3 
        
 
-# TASK for this Subpart
+## Task for this Subpart
 
 From Pybullet camp, you are familiar with building urdfs(assuming only static models). In this task your aim is to build the geometrical tags for the below robot(Original Version developed by RoboREG-adversarial_cars team [here](https://github.com/Robotics-Club-IIT-BHU/gym-adversarial-cars)) and visulaise it in RViz and debug there.
 <p align ="center">
