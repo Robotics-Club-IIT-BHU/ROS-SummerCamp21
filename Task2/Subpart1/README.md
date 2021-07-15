@@ -27,7 +27,7 @@ Before moving further with RViz, let's first learn about **tf or transforms(tran
 
 <h1 align="center">tf</h1>
 
-In pybullet camp, you found an example of transformation i.e., **euler2quaternion** or **quaternion2euler**. To learn more about transformations in real world with robotics see [This video from Maryland University](https://www.youtube.com/watch?v=olmAyg_mrdI&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=2&t=837s)(Although this video is on quadrotors but nearly same math applies in all robotics field.)
+In pybullet camp, you found an example of transformation i.e., **euler2quaternion** or **quaternion2euler**, but robotics is not just limited to it. To learn more about transformations in real world with robotics see [This video from Maryland University](https://www.youtube.com/watch?v=olmAyg_mrdI&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=2&t=837s)(Although this video is on quadrotors but nearly same math applies in all robotics field.)
 
 In ROS, there is a seprate package which handles transformations, but one might be thinking...
 
@@ -51,7 +51,7 @@ Run below Packages Step by Step to get the flavour of Rviz and tf.
 
 P.S. -> We are not going indepth of the underlying code(As our aim is to give you a headstart on how these are useful and not telling about every knitty-gritty details), if one is willing he/she can go through it for better understanding
 
- - [Learning Urdf Step by Step](http://wiki.ros.org/urdf/Tutorials) - ALthough these concepts were taught in pybullet camp but here you will actually going to visulaise it in ROS. **Just Follow and try to Run locally-> Learning URDF Step by Step Tutorial for first three section till now(Upto- Adding Physical and Collision Properties to a URDF Model).**
+ - [Learning Urdf Step by Step](http://wiki.ros.org/urdf/Tutorials) - Although these concepts were taught in pybullet camp but here you will actually going to visulaise it in RViz-ROS. **Just Follow the steps as mentioned there and try to Run locally-> Learning URDF Step by Step Tutorial for first three section till now(Upto- Adding Physical and Collision Properties to a URDF Model).**
    
  - 2
  - 3 
