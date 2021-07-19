@@ -49,15 +49,22 @@ Basically it helps you by providing a transformation (both rotation and translat
 
 
 - Lets Say you have a overhead camera and you know the position of target and the robot from the cameras point of view But you have to move the robot which has a different coordinate system, Its obvious if we consider to just flip the axises of the camera coordinate from XYZ to ZYX axises we can directly control the robot
-![over](overhead.jpeg)
+
+<p align ="center">
+<img src = "overhead.jpg"><br/>
+</p>
 
 basically we did a matrix multiplication or a Rotation of the coordinates to get the Point of references. If you dont understand what a rotation matrix is just imagine it as a extention of your complex number multiplication that rotated a phaser to a desired angle, and to get a better Visualization of what this does then just have a look at the image below.
-![rot](rot.png)
+<p align ="center">
+<img src = "rot.png"><br/>
+</p>
 
 And for this case the rotation matrix is very simple
 
 - Now lets consider a complex case where the point of references are not stationary Like in the robot given below lets say we wanted to climb stairs, And we have the coordinates of the stairs from the Center of Mass of the robot, If we have the task to keep only the front most leg on the stairs, We would need the coordinate of the stairs from the frame of reference of the toe, But this time the rotation and translation matrix is not constant like the previous examples as the position of the toe is changing relative to the Center of mass as the joint angles are changing So keeping this in mind we have first compute the forward Kinematics of the toes and then compute the translation and rotation matrix which is very hard considering your system may have multiple joints and multiple end effectors , In all this case the TF package comes in handy
-![stoch](Screenshot from 2021-04-16 14-43-08.png)
+<p align ="center">
+<img src = "stoch.png"><br/>
+</p>
 
 ## HANDS ON
 
