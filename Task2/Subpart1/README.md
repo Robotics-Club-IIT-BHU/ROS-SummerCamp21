@@ -20,7 +20,7 @@ Before moving further, see these Videos for Rviz Introduction and feel
 [More indepth usage](https://www.youtube.com/watch?v=6pep5xB4pEU)
 
 
-Don't Worry if you don't understand few terms, you learn about most of them as the camp progress.
+Don't Worry if you don't understand few terms, you learn about most of them as the camp progress. If you are unable to understand How we represent two frames and how we translate between them see [Simple Example](#simple_example) section first
 <br/>
 
 Before moving further with RViz, let's first learn about **tf or transforms(transformations)**.
@@ -42,6 +42,22 @@ In the video you can find how different transformations need to be consider just
 To learn more thoroughly about it Refer [ROS-Wiki/tf](http://wiki.ros.org/tf).
 
 Also you can look about RViz from [ROS-Wiki/RViz](http://wiki.ros.org/rviz)(Although i think it will be hard for some of you to understand it directly from wiki for now..).
+
+Basically it helps you by providing a transformation (both rotation and translational) between two frame of references. 
+
+## Simple examples
+
+
+- Lets Say you have a overhead camera and you know the position of target and the robot from the cameras point of view But you have to move the robot which has a different coordinate system, Its obvious if we consider to just flip the axises of the camera coordinate from XYZ to ZYX axises we can directly control the robot
+![over](overhead.jpeg)
+
+basically we did a matrix multiplication or a Rotation of the coordinates to get the Point of references. If you dont understand what a rotation matrix is just imagine it as a extention of your complex number multiplication that rotated a phaser to a desired angle, and to get a better Visualization of what this does then just have a look at the image below.
+![rot](rot.png)
+
+And for this case the rotation matrix is very simple
+
+- Now lets consider a complex case where the point of references are not stationary Like in the robot given below lets say we wanted to climb stairs, And we have the coordinates of the stairs from the Center of Mass of the robot, If we have the task to keep only the front most leg on the stairs, We would need the coordinate of the stairs from the frame of reference of the toe, But this time the rotation and translation matrix is not constant like the previous examples as the position of the toe is changing relative to the Center of mass as the joint angles are changing So keeping this in mind we have first compute the forward Kinematics of the toes and then compute the translation and rotation matrix which is very hard considering your system may have multiple joints and multiple end effectors , In all this case the TF package comes in handy
+![stoch](Screenshot from 2021-04-16 14-43-08.png)
 
 ## HANDS ON
 
