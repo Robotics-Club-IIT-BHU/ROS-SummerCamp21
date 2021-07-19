@@ -12,5 +12,5 @@ This week we will extend the stack of ROS to include tools which make your life 
 
 We divided the content accordingly into several sub-sections - 
 
- - RViz(Makes visualisation easier) and tf
- - Debugging tools comprises RQT, ROSWTF, TF_ViewFrames and Dynamic    Reconfiguration of Parameters.
+ - RViz(Makes visualisation easier) and tf [subpart1](Subpart1/)
+ - Debugging tools comprises RQT, ROSWTF, TF_ViewFrames and Dynamic Reconfiguration of Parameters. [subpart2](Subpart2/)
