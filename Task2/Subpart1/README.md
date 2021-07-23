@@ -94,7 +94,7 @@ From Pybullet camp, you are familiar with building urdfs(assuming only static mo
 
 - [ ] After setting up Tf to test it out you have to print the coordinates, and orientation (prefered in euler angles) of the point [1,1,0] from 3 different frame of references (i.e., From the baselink, from left wheel, from right wheel) you may choose to add more frames but in the submission of this task you have to make a clear video while demonstrating your code running and the urdf spawnned on RVIZ. We strictly prefer the use of TF to complete this task but you are more than welcome to do it by hand but it is neccesary for using TF for the next task. 
 
-- [ ] After you have used TF we just want you to submit the pdf generated using TF Frames, whos syntax can be found here.[Debugging tools](wiki.ros.org/tf/Debugging%20tools)
+- [ ] After you have used TF we just want you to submit the pdf generated using TF Frames, whos syntax can be found here.[Debugging tools](https://wiki.ros.org/tf/Debugging%20tools)
 
 Happy `make`ing!!
 
