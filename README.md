@@ -51,7 +51,34 @@ $ roslaunch gmapping gmapping.launch
 ![slam](https://user-images.githubusercontent.com/56990337/122931433-84afe680-d38a-11eb-82b4-67c0014d80a3.gif)
 
 
-## What should I do
+## Who are we?
+
+We are your mentors for the specilization for contacting us you can use the discord server and contact us at `@ROS-Team` we can also be contacted with personal details which are shared on the server. We are a group of 3 mentors
+<p align="center">
+
+<h4 align="center">Team ROS</h4>
+
+<table align="center">
+ <td align="center">
+     <a href="https://github.com/hex-plex">
+    <img src="https://hex-plex.github.io/authors/admin/avatar_hu33d8f2710ea4928d295bd08cdc05f6eb_346396_270x270_fill_q75_lanczos_center.jpg?s=460&v=4" width="115px;" alt=""/><br /><sub><b>Somnath Sendhil Kumar </b></sub></a><br />
+    </td>
+    <td align="center">
+     <a href="https://github.com/vstark21">
+    <img src="https://vstark21.github.io/assets/img/profile-img.jpg?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Chepuri Vishwas</b></sub></a><br />
+	</td>
+	<td align="center">
+     <a href="https://github.com/Amshra267">
+    <img src="https://amshra267.github.io/Amshra267_Website/static/media/avatar.440eace9.svg?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Aman Mishra</b></sub></a><br />
+	</td>
+
+</table>
+
+</p>
+
+Enough Chit Chatting lets get to the real business.
+
+## What should I do Next!
 Lets now move to installation.<br/>
 Before that there are a few requirements.
 

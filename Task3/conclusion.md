@@ -52,7 +52,7 @@ For Completing our specilization hope you enjoyed and as the content is open Spr
 <table align="center">
  <td align="center">
      <a href="https://github.com/hex-plex">
-    <img src="https://hex-plex.github.io/authors/admin/avatar_hu33d8f2710ea4928d295bd08cdc05f6eb_346396_270x270_fill_q75_lanczos_center.jpg?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Somnath Sendhil Kumar </b></sub></a><br />
+    <img src="https://hex-plex.github.io/authors/admin/avatar_hu33d8f2710ea4928d295bd08cdc05f6eb_346396_270x270_fill_q75_lanczos_center.jpg?s=460&v=4" width="115px;" alt=""/><br /><sub><b>Somnath Sendhil Kumar </b></sub></a><br />
     </td>
     <td align="center">
      <a href="https://github.com/vstark21">
