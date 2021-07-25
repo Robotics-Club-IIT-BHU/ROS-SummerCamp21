@@ -116,7 +116,7 @@ After having simulated a bot in gazebo. Now we need control to our robot and mak
 First lets install ros-control (replace neotic with your respective ROS distribution)
 
 ```sh
-sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
+sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
 ```
 
 To use ros_control with out robot, you need to add some additional elements to your urdf. The `<transmission>` element is used to link actuators to joints, see the [spec](http://ros.org/wiki/urdf/XML/Transmission) for exact XML format. Now lets add transmission to the rear wheels in our bot leaving front wheels free to move. Add these lines to urdf (you need to add it in the robot tag).
@@ -583,3 +583,5 @@ Here you have to control the robot to come right below the camera. Assuming it w
 
 ### Submission
 You have to submit a video in which your terminal is visible with your username. And show a OpenCV window in which the robot is visible moving. (In the video the robot may not be going to the center of the camera's sight but maybe randomly moving if you were not able to complete the bonus task. If you did congrats submit a video with the robot moving towards the center with great precision).
+
+**Deadline** : 29 July EOD (Negotiable KYA HI HOTA HAI!!)
