@@ -75,6 +75,7 @@ what it does -
 ## Its Getting Boring ???
 <p align="center">
 <img src = "node.gif?raw=true">
+    
 Well i know it is but you are now done with boring theory and can jump on using these things with your own robot!!!! 
 </p>
 From now we expect you to discuss with a senior on what robot you would be using to complete the further content as we would like you to have  a good learning experience at the end. We would be only showing example of code snippets and you can directly apply them on your robot, as ros doesnt make any assumptions of your robot and helps to generalize the code.

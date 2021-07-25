@@ -20,7 +20,7 @@ Before moving further, see these Videos for Rviz Introduction and feel
 [More indepth usage](https://www.youtube.com/watch?v=6pep5xB4pEU)
 
 
-Don't Worry if you don't understand few terms, you learn about most of them as the camp progress.
+Don't Worry if you don't understand few terms, you learn about most of them as the camp progress. If you are unable to understand How we represent two frames and how we translate between them see [Simple Example](#simple_example) section first
 <br/>
 
 Before moving further with RViz, let's first learn about **tf or transforms(transformations)**.
@@ -43,6 +43,32 @@ To learn more thoroughly about it Refer [ROS-Wiki/tf](http://wiki.ros.org/tf).
 
 Also you can look about RViz from [ROS-Wiki/RViz](http://wiki.ros.org/rviz)(Although i think it will be hard for some of you to understand it directly from wiki for now..).
 
+Basically it helps you by providing a transformation (both rotation and translational) between two frame of references. 
+
+## Simple examples
+
+
+- Lets Say you have a overhead camera and you know the position of target and the robot from the cameras point of view But you have to move the robot which has a different coordinate system, Its obvious if we consider to just flip the axises of the camera coordinate from XYZ to ZYX axises we can directly control the robot
+
+<p align ="center">
+<img src = "overhead.jpg"><br/>
+</p>
+
+basically we did a matrix multiplication or a Rotation of the coordinates to get the Point of references. If you dont understand what a rotation matrix is just imagine it as a extention of your complex number multiplication that rotated a phaser to a desired angle, and to get a better Visualization of what this does then just have a look at the image below.
+<p align ="center">
+<img src = "rot1.png"><br/>
+</p>
+
+And for this case the rotation matrix is very simple as we are only swapping the axises and can be given as below
+<p align ="center">
+<img src = "CodeCogsEqn.gif"><br/>
+</p>
+
+- **Complex Scenario** : Now lets consider a complex case where the point of references are not stationary Like in the robot given below lets say we wanted to climb stairs, And we have the coordinates of the stairs from the Center of Mass of the robot, If we have the task to keep only the front most leg on the stairs, We would need the coordinate of the stairs from the frame of reference of the toe, But this time the rotation and translation matrix is not constant like the previous examples as the position of the toe is changing relative to the Center of mass as the joint angles are changing So keeping this in mind we have first compute the forward Kinematics of the toes and then compute the translation and rotation matrix which is very hard considering your system may have multiple joints and multiple end effectors , In all this case the TF package comes in handy
+<p align ="center">
+<img src = "stoch.png"><br/>
+</p>
+
 ## HANDS ON
 
 Only seeing something don't make you master in it. so let's try some things by yourselves...
@@ -64,11 +90,11 @@ From Pybullet camp, you are familiar with building urdfs(assuming only static mo
 <b>Credits for this URDF- gym-adversarial_cars team - RoboREG</b>
 </p>
 
--[ ] You can use the above link to access the urdf and use this link [Visulaising urdf tutorial from ROS for your urdf](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch) to get started with visualizing it. The next task is to setup TF with this urdf [TF with Robot](http://wiki.ros.org/navigation/Tutorials/RobotSetup/TF), Here they have used a laser but what i need you to do is setup tf from baselink to each wheels.
+- [ ] You can use the above link to access the urdf and use this link [Visulaising urdf tutorial from ROS for your urdf](http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch) to get started with visualizing it. The next task is to setup TF with this urdf [TF with Robot](http://wiki.ros.org/navigation/Tutorials/RobotSetup/TF), Here they have used a laser but what i need you to do is setup tf from baselink to each wheels.
 
--[ ] After setting up Tf to test it out you have to print the coordinates, and orientation (prefered in euler angles) of the point [1,1,0] from 3 different frame of references (i.e., From the baselink, from left wheel, from right wheel) you may choose to add more frames but in the submission of this task you have to make a clear video while demonstrating your code running and the urdf spawnned on RVIZ. We strictly prefer the use of TF to complete this task but you are more than welcome to do it by hand but it is neccesary for using TF for the next task. 
+- [ ] After setting up Tf to test it out you have to print the coordinates, and orientation (prefered in euler angles) of the point [1,1,0] from 3 different frame of references (i.e., From the baselink, from left wheel, from right wheel) you may choose to add more frames but in the submission of this task you have to make a clear video while demonstrating your code running and the urdf spawnned on RVIZ. We strictly prefer the use of TF to complete this task but you are more than welcome to do it by hand but it is neccesary for using TF for the next task. 
 
-- [ ] After you have used TF we just want you to submit the pdf generated using TF Frames, whos syntax can be found here.[Debugging tools](wiki.ros.org/tf/Debugging%20tools)
+- [ ] After you have used TF we just want you to submit the pdf generated using TF Frames, whos syntax can be found here.[Debugging tools](https://wiki.ros.org/tf/Debugging%20tools)
 
 Happy `make`ing!!
 
