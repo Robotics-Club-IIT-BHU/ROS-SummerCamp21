@@ -14,6 +14,7 @@ I would be very happy to see pull requests ( which I will merge on master ) with
 ## Installing packages
 
 ### TurtleBot3
+<img src="https://static.generation-robots.com/14511-product_cover/turtlebot3-burger-mobile-robot.jpg" width="400" align="right"/>
 
 This is just a gist of the Turtlebot3 documentation [[link]](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation)
 
@@ -70,10 +71,13 @@ Run Navigation node.
 user@master :~$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=~/map.yaml
 ```
 
+![](https://emanual.robotis.com/assets/images/platform/turtlebot3/navigation/2d_nav_goal.png)
+
 This is as easy to get a **STATE-OF-THE-ART** Algorithm working with your robot.
 
 ### Other robots.
 
+Hope to get the mail of your Pull-Request for your robot platform.
 
 
 

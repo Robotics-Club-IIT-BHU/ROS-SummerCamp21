@@ -25,9 +25,9 @@ few more links/resources
 Hoping to see a wide variety of robots  and to see robots which I dont know of.
 
 You can Continue to
-- [**Subpart1**](/Subpart1) : - Were we explain how to use gazebo and ros_control this would also have a bit of documentation for you to help you get started with your robot platform and see it in your laptop for the first time.
+- [**Subpart1**](/Task3/Subpart1) : - Were we explain how to use gazebo and ros_control this would also have a bit of documentation for you to help you get started with your robot platform and see it in your laptop for the first time.
 
-- [**Subpart2**](/Subpart2) : - We are presenting a few help ful packages for completeing the main task of the specilization or the **Main Project** you may say for the specilization. You may discuss your project ideas at Discord with tag `@ROS-Team` so that we may consider your submission. Format of submission is clearly explained there.
+- [**Subpart2**](/Task3/Subpart2) : - We are presenting a few help ful packages for completeing the main task of the specilization or the **Main Project** you may say for the specilization. You may discuss your project ideas at Discord with tag `@ROS-Team` so that we may consider your submission. Format of submission is clearly explained there.
 
 
-- [**Conclusion**](/conclusion) : - Continue to here after having completed your project and wanna head out to the world of Robots.  
+- [**Conclusion**](/Task3/conclusion) : - Continue to here after having completed your project and wanna head out to the world of Robots.  
